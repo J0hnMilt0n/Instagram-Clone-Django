@@ -56,10 +56,10 @@ WSGI_APPLICATION = 'instagram_clone.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'Instagram',
-        'USER': 'root',
-        'PASSWORD': 'root',
-        'HOST': 'localhost',
+        'NAME': 'earnforu_Instagram',
+        'USER': 'earnforu_Instagram',
+        'PASSWORD': 'rootuser',
+        'HOST': 'cloud3.googiehost.com',
         'PORT': '3306',
     }
 }
